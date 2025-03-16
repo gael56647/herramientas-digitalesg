@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Herramientas Digitales</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Herramientas Digitales</h1>
+    </header>
+
+    <nav>
+        <a href="#" onclick="showSection('ofimatica')">Ofimática</a>
+        <a href="#" onclick="showSection('edicion')">Edición</a>
+        <a href="#" onclick="showSection('desarrollo')">Desarrollo</a>
+    </nav>
+
+    <div class="container">
+        <!-- Sección Ofimática -->
+        <div id="ofimatica" class="section">
+            <h2>Herramientas de Ofimática</h2>
+            <img src="img/ofimatica.png" alt="Ofimática">
+            <p>Procesadores de texto, hojas de cálculo y presentaciones.</p>
+        </div>
+
+        <!-- Sección Edición -->
+        <div id="edicion" class="section" style="display: none;">
+            <h2>Herramientas de Edición</h2>
+
+            <div class="tool-card">
+                <img src="img/canva.png" alt="Canva">
+                <h3>Canva</h3>
+                <p>Canva - Diseño gráfico y presentaciones.</p>
+            </div>
+
+            <div class="tool-card">
+                <img src="img/trello.png" alt="Trello">
+                <h3>Trello</h3>
+                <p>Trello - Gestión de proyectos y tareas.</p>
+            </div>
+
+            <div class="tool-card">
+                <img src="img/drive.png" alt="Google Drive">
+                <h3>Google Drive</h3>
+                <p>Google Drive - Almacenamiento y colaboración en la nube.</p>
+            </div>
+        </div>
+
+        <!-- Sección Desarrollo -->
+        <div id="desarrollo" class="section" style="display: none;">
+            <h2>Herramientas de Desarrollo</h2>
+            <img src="img/desarrollo.png" alt="Desarrollo">
+            <p>Entornos de desarrollo, editores de código y frameworks.</p>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
+
+
